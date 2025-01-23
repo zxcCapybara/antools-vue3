@@ -1,0 +1,50 @@
+.mail {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	margin-bottom: 240px;
+
+
+	p {
+		font-size: 48px;
+		color: #ffffffe5;
+	}
+	span {
+		font-size: 18px;
+		color: #ffffff8c;
+		margin-bottom: 70px;
+		width: 427px;
+		text-align: center;
+	}
+
+	form {
+	position: relative;
+
+	}
+
+	input {
+		width: 500px;
+		height: 65px;
+		border-radius: 15px;
+		border: 1.5px solid rgba(255, 255, 255, 0.1);
+		background: #283036;
+		padding: 20px;
+		padding-left: 40px;
+		color: #fff;
+
+		&::placeholder {
+			color: #ffffff8c;
+		}
+
+		&:focus {
+			outline: #ff6e30;
+		}
+	}
+	Button {
+		position: absolute;
+		right: 10px;
+		bottom: 8px;
+	}
+}

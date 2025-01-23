@@ -1,0 +1,55 @@
+.footer {
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+	padding-bottom: 100px;
+	
+
+	&_inner {
+		width: 80%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		padding-top: 100px;
+		gap: 80px;
+	}
+}
+
+
+
+
+
+.p {
+	color: #FF6E30;
+	font-size: 18px;
+}
+
+.right {
+	display: flex;
+	a {
+		width: 260px;
+		color: #ffffff8c;
+		font-size: 16px;
+	}
+}
+
+.logoFooter,
+.contact,
+.categories,
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.logo-link {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.span {
+	width: 260px;
+	color: #ffffff8c;
+	font-size: 16px;
+}

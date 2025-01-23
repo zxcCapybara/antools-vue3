@@ -1,0 +1,70 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+
+	align-items: center;
+
+	.pointer {
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		position: relative;
+		height: 40px;
+
+		&:hover > .categories {
+			display: block;
+		}
+	}
+
+	.categories {
+		display: none;
+		text-align: center;
+		background: #ff6e30;
+		color: #fff;
+		width: 200px;
+		height: 300px;
+		top: 40px;
+		left: -50px;
+		position: absolute;
+		border-radius: 20px;
+
+		li {
+			padding: 24px;
+			border-bottom: 1px solid #fdf5ff;
+
+			&:last-child {
+				border: none;
+			}
+		}
+	}
+
+	.logo {
+		display: flex;
+		gap: 10px;
+		align-items: center;
+		font-size: 22px;
+		font-weight: 600;
+	}
+
+	ul {
+		display: flex;
+		gap: 60px;
+		color: #ffffff8c;
+		font-weight: 500;
+		align-items: center;
+	}
+
+	.registration {
+		button {
+			background-color: inherit;
+			border: none;
+			color: #ffffff8c;
+			font-weight: 600;
+			cursor: pointer;
+		}
+		display: flex;
+		gap: 40px;
+	}
+}
